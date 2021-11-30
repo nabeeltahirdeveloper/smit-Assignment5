@@ -1,0 +1,35 @@
+.grad1 {
+  height: 300px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #FE5858 , #EE9518);
+}
+.footerText {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* padding-top: 100px; */
+}
+
+.emailSub {
+  border-radius: 25px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  padding: 20px; 
+  width: 400px;
+  height: 10px;  
+}
+
+.emailButton {
+  display: flex;
+
+}
+
+.subButton{
+  height: 46px;
+  width: 100px;
+  /* margin-top: 4px; */
+  
+  border-radius: 25px;
+  border: 3px solid white;
+  background-color: white;
+  margin-left: -100px;
+}
