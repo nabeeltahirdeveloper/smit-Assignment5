@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .grad1 {
   height: 351px;
   background-color: red; /* For browsers that do not support gradients */
@@ -120,9 +126,7 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.cardHeading1{
 
-}
 .cardHeading2{
   color: #FE5858;
 }
@@ -164,13 +168,7 @@
     margin-left: 200px;
   }
 }
-@media only screen and (max-width: 768px) {
-  .supportImage {
-    width: 440px;
-    height: auto;
-    margin-left: -50px;
-  }
-}
+
 
 .supportP{
   color: gray;
@@ -183,3 +181,85 @@
 .whtAce{
   font-family:'Poppins-Medium', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+/* @media only screen and (min-width: 800px) { */
+  .bannerBg{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #FE5858 , #EE9518);
+    width: 80%;
+    height: 351px;
+  }
+  
+  
+  .qTab{
+    background-color: white;
+    width: 60%;
+    height: 351px;
+    margin-left: 10%;
+    text-align: left;
+    display: block;
+  }
+  
+  .textTab{
+    margin: 10%;
+    /* padding-top: 10%; */
+  }
+  
+  
+  .bannerHeading{
+    font-family: "Poppins";
+    padding: 3px;
+    
+  }
+  
+  
+  .bannerHeading2{
+    font-family: "Poppins";
+    color: #FE5858;
+    padding: 3px;
+  }
+  
+  .bannerHr{
+    width: 80%;
+    border: 2px solid gray;
+  }
+  
+  .bannerText{
+    
+    color: gray;
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+  
+  .call{
+    width: 150px;
+    border: 0px solid white;
+    background-color: white;
+    color: #D44800;
+    margin: 165px 50px;
+    font-family: "Poppins";
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .supportImage {
+      width: 440px;
+      height: auto;
+      margin-left: -50px;
+    }
+    .bannerBg{
+      width: 100%;
+    }
+    .qTab{
+      width: 100%;
+      height: 70%;
+      margin-top: 5%;
+      margin-left: 0%;
+
+    }
+    .call{
+      margin:0%;
+      margin-left: 250%;
+    }
+  }

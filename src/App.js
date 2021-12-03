@@ -6,12 +6,15 @@ import Navbar from "./components/Navbar";
 import SocialLink from "./components/SocialLink";
 import Cards from "./components/Cards";
 import Support from "./components/Support";
+import {Qbanner} from "./components/Qbanner";
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Header/>
+      <Qbanner/>
       <Support/>
       <div className="container">
         <center>
