@@ -7,6 +7,7 @@ import SocialLink from "./components/SocialLink";
 import Cards from "./components/Cards";
 import Support from "./components/Support";
 import {Qbanner} from "./components/Qbanner";
+import {Application} from "./components/Application";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
+      <Application/>
       <Qbanner/>
       <Support/>
       <div className="container">
