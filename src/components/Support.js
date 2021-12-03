@@ -28,7 +28,7 @@ export default function Support() {
           </p>
         </div>
         <div className="col-md-12 col-lg-6">
-        <img className="supportImage" src={SpImage}></img>
+        <img className="supportImage" src={SpImage} alt="img"></img>
         </div>
       </div>
     </div>
